@@ -13,7 +13,7 @@ train <- data[index,]
 test <- data[-index,]
 
 # Fitting linear model
-lm.fit <- glm(medv~., data=train)
+lm.fit <- glm(V25~., data=train)
 summary(lm.fit)
 
 # Predicted data from lm
